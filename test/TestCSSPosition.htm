@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ทดสอบ การใช้ CSS : Position </title>
+    <style>
+        .header{
+            border: 1px solid rgb(31, 28, 31);
+            width: 100%;
+            height: 100px;
+            position: relative;
+            background: palevioletred;
+
+        }
+        .content{
+            border: 1px solid rgb(41, 41, 41);
+            width: 100%;
+            height: 400px;
+            position: relative;
+            
+
+        }
+        .left{
+            width: 30%;
+            border: 1px solid rgb(47, 47, 47);
+            height: 400px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: rgb(55, 56, 56);
+            /*float: left;*/
+
+
+        }
+        .right{
+            width: 30%;
+            border: 1px solid rgb(63, 62, 62);
+            height: 400px;
+            position:absolute;
+            top:0px;
+            right: 0px;
+            background: rgb(49, 49, 49);
+            /*float: right;*/
+
+        }
+        .center{
+            width: 40%;
+            border: 1px solid rgb(51, 49, 49);
+            height: 400px;
+            position:absolute;
+            top:0px;
+            right: 400px;
+            background: rgb(98, 0, 255);
+            /*float: right;*/
+        }
+        .bottom{
+            width: 100%;
+            border: 1px solid palevioletred;
+            height: 100px;
+            position: relative;
+            right: 600px;
+            left: 0px;
+            background: palevioletred;
+            /*float: right;*/
+
+        }
+
+    
+    </style>
+
+</head>
+<body bgcolor="#4A4C58" vlink="width" alink="#4A4C58">
+    <h1> ทดสอบ การใช้ CSS : Position </h1>
+    <div class="content1">
+
+  
+    <div class="header">
+            <center><h1>  - WELCOME TO MY SITE - </h1></center>
+        
+    </div>
+
+    <div class="content">
+
+        <div class="left">
+                <li> HomeWork</li>   
+                <ul type="none">
+                    <li> <a href="/history.html" target="F3">HomeWork 1 </a>
+                    
+                    <li> <a href="/Webpage.html" target="F3">HomeWork 2 </a>
+                    <li> <a href="/Table.html" target="F3">HomeWork 3</a>
+                </ul>
+                <li> Class Work
+                        <ul type="none">
+                                <li> <a href="/test/TestLists.html" target="F3">TestLists</a> 
+                                <li> <a href="/test/TestTable.html" target="F3">TestTable</a>
+                                <li> <a href="/test/testlayout.html" target="F3">Testlayout</a>
+                                <li> <a href="/test/Testiframe.html" target="F3">Testiframe</a> 
+                                <li> <a href="/test/testframeset.html" target="F3">Testframeset</a>
+                                    
+                            </ul>
+
+
+            </div>
+
+        <div class="right">
+                <img src="/img/rem2.png" height="400">
+            </div>
+        <div class="center">
+                
+                <img src="/img/remram.png"height="400" width="580">
+                
+
+            </div>
+        
+    </div>
+
+    <div class="bottom">
+        <center><img src="/img/icon-gif.png" height="100"></center>
+
+            </div>
+      </div>
+</body>
+</html>
